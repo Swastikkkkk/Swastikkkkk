@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="212" viewBox="0 0 420 212" role="img" aria-label="PrepNinja: Proctored AI mock interviews with video answers, automated scoring, live coding rounds and resume analysis in one platform.">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  @keyframes beam { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -1000 } }
+  @keyframes nudge { 0%,70%,100% { transform: translate(0,0) } 80% { transform: translate(2px,-2px) } }
+  @keyframes ping { 0% { transform: scale(1); opacity: .9 } 80%,100% { transform: scale(2.6); opacity: 0 } }
+  @keyframes up { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+  .cat { font-family: 'SF Mono', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 10.5px; letter-spacing: 1.6px; fill: #737373; }
+  .title { font-size: 25px; font-weight: 650; letter-spacing: -0.6px; fill: #fafafa; transform-box: fill-box; animation: up .8s cubic-bezier(.2,.7,.2,1) 0.15s both; }
+  .desc { font-size: 13.5px; fill: #a3a3a3; }
+  .pill { font-size: 11.5px; font-weight: 500; fill: #d4d4d4; }
+</style>
+<rect x="0.5" y="0.5" width="419" height="211" rx="14" fill="#0a0a0a" stroke="#262626"/>
+<rect x="0.75" y="0.75" width="418.5" height="210.5" rx="14" fill="none" stroke="#ffffff"
+  stroke-width="1.5" pathLength="1000" stroke-dasharray="90 910" stroke-linecap="round"
+  opacity="0.7" style="animation: beam 8s linear -1.3s infinite"/>
+<text x="22" y="37" class="cat">AI PLATFORM</text>
+
+<g transform="translate(384 26)"><g style="animation: nudge 3s ease-in-out 1.4s infinite">
+  <path d="M1 13 L13 1 M4.5 1 H13 V9.5" fill="none" stroke="#737373" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+<text x="22" y="75" class="title">PrepNinja</text>
+<text x="22" y="104" class="desc">Proctored AI mock interviews with video answers,</text>
+<text x="22" y="124" class="desc">automated scoring, live coding rounds and resume</text>
+<text x="22" y="144" class="desc">analysis in one platform.</text>
+<rect x="22.0" y="170" width="53.0" height="22" rx="11" fill="#141414" stroke="#2a2a2a"/><text x="48.5" y="185" text-anchor="middle" class="pill">React</text><rect x="81.0" y="170" width="86.0" height="22" rx="11" fill="#141414" stroke="#2a2a2a"/><text x="124.0" y="185" text-anchor="middle" class="pill">TypeScript</text><rect x="173.0" y="170" width="59.6" height="22" rx="11" fill="#141414" stroke="#2a2a2a"/><text x="202.8" y="185" text-anchor="middle" class="pill">Gemini</text><rect x="238.6" y="170" width="72.8" height="22" rx="11" fill="#141414" stroke="#2a2a2a"/><text x="275.0" y="185" text-anchor="middle" class="pill">Deepgram</text><rect x="317.4" y="170" width="59.6" height="22" rx="11" fill="#141414" stroke="#2a2a2a"/><text x="347.2" y="185" text-anchor="middle" class="pill">Judge0</text>
+</svg>
