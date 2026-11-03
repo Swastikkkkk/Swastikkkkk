@@ -20,7 +20,9 @@ Previously on the iOS Payments team at **JPMorgan Chase**, where I moved Storybo
 <a href="https://github.com/Swastikkkkk/agentdrift"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agentdrift-dark.svg"><img src="assets/card-agentdrift-light.svg" width="49%" alt="agentdrift: AI agent instruction linter"></picture></a>
 </p>
 
-More: [DisasterAR](https://github.com/Swastikkkkk/disasterevac) (offline AR evacuation, ARKit) · [CCTV emergency detection](https://github.com/Swastikkkkk/WomenSafety) (YOLO, CLIP) · [EchoBin](https://github.com/Swastikkkkk/Echobin) (React Native, NFC) · [ReachOut](https://github.com/Swastikkkkk/Reachout_Hackathon) (Flutter, Gemini)
+**Try them live:** [SketchRacer](https://www.sketchracer.com) · [PrepNinja](https://prepninja-tawny.vercel.app) · [ChatSnitch](https://chatsnitch.vercel.app) · [agentdrift](https://agentdrift.vercel.app) · [JalNetra](https://d1oi8xa605dsj6.cloudfront.net) · [Lerno.ai](https://lerno-peach.vercel.app) · [Voluntree](https://voluntree-gules.vercel.app) · [Tatva](https://tatva-six.vercel.app)
+
+More: [SketchRacer](https://github.com/Swastikkkkk/swastikk-drive) (browser driving game, Three.js) · [DisasterAR](https://github.com/Swastikkkkk/disasterevac) (offline AR evacuation, ARKit) · [CCTV emergency detection](https://github.com/Swastikkkkk/WomenSafety) (YOLO, CLIP) · [EchoBin](https://github.com/Swastikkkkk/Echobin) (React Native, NFC) · [ReachOut](https://github.com/Swastikkkkk/Reachout_Hackathon) (Flutter, Gemini)
 
 ### Stack
 
