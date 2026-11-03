@@ -50,6 +50,7 @@ Final-year CS (Data Science) at Manipal University Jaipur. This summer I was on 
 | Project | What it does | Built with |
 | --- | --- | --- |
 | [District Mesh](https://github.com/Swastikkkkk/District_Mesh) | Offline mesh for iPhone. Messages, live location, SOS and calls hop between phones with no internet. | Swift |
+| [Lerno.ai](https://github.com/Swastikkkkk/lerno) | Type a concept, get an animated explainer. Claude writes the storyboard and Manim code, then each scene renders to video. Won Google Codeclash 2.0. | React, FastAPI, Manim |
 | [AmExpert](https://github.com/Swastikkkkk/amexpert) | Agent that resolves card-servicing requests over voice, WhatsApp, SMS and email, with a deterministic policy engine. | Node, LangGraph |
 | [agentdrift](https://github.com/Swastikkkkk/agentdrift) | Finds rules that clash across AGENTS.md, CLAUDE.md and .cursorrules, then merges them into one file. | Python |
 | [DisasterAR](https://github.com/Swastikkkkk/disasterevac) | Indoor evacuation in AR that works fully offline, routing around hazards to the nearest safe exit. | Swift, ARKit |
@@ -66,7 +67,7 @@ Final-year CS (Data Science) at Manipal University Jaipur. This summer I was on 
 
 **Wins**
 
-Smart India Hackathon 2025, winner out of 68,000+ teams. Google Codeclash 2.0, first place. ZS Campus Beats 2026, second runner-up in AI Builders. Ten-plus hackathons in total.
+Smart India Hackathon 2025, winner out of 68,000+ teams. Google Codeclash 2.0, first place with [Lerno.ai](https://github.com/Swastikkkkk/lerno). ZS Campus Beats 2026, second runner-up in AI Builders. Ten-plus hackathons in total.
 
 **Stack**
 
