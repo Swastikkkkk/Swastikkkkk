@@ -1,44 +1,77 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Swastik Dutt, Full Stack AI Engineer">
-</picture>
+### Hi, I'm Swastik.
+
+I build AI products end to end: the model or agent, the API around it, the web app, and the iOS client when it needs one.
+
+Final-year CS (Data Science) at Manipal University Jaipur. This summer I was on the iOS Payments team at JPMorgan Chase.
 
 <br>
 
-I build AI products end to end: the agents and models, the APIs behind them, the web app on top, and the native iOS client when it needs one.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://www.sketchracer.com"><img src="assets/work/sketchracer.jpg" alt="SketchRacer"></a>
+      <br><br>
+      <b>SketchRacer</b><br>
+      Open-world driving game in the browser. Draw any track and race it, or drive real F1 circuits at full scale.
+      <br><br>
+      <a href="https://www.sketchracer.com">Play</a> &nbsp;·&nbsp; <a href="https://github.com/Swastikkkkk/swastikk-drive">Code</a> &nbsp;·&nbsp; <sub>Three.js, Supabase</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://prepninja-tawny.vercel.app"><img src="assets/work/prepninja.jpg" alt="PrepNinja"></a>
+      <br><br>
+      <b>PrepNinja</b><br>
+      Proctored AI mock interviews, coding rounds with a sandboxed runner, and an ATS resume check. Skill scoring benchmarked against BKT and DKT.
+      <br><br>
+      <a href="https://prepninja-tawny.vercel.app">Live</a> &nbsp;·&nbsp; <a href="https://github.com/Swastikkkkk/PrepNinja">Code</a> &nbsp;·&nbsp; <sub>React, Node, Gemini, Judge0</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://chatsnitch.vercel.app"><img src="assets/work/chatsnitch.jpg" alt="ChatSnitch"></a>
+      <br><br>
+      <b>ChatSnitch</b><br>
+      Shows which of your Chrome extensions can read your ChatGPT, Claude and Gemini chats. One permission, no network access.
+      <br><br>
+      <a href="https://chatsnitch.vercel.app">Site</a> &nbsp;·&nbsp; <a href="https://github.com/Swastikkkkk/chatsnitch">Code</a> &nbsp;·&nbsp; <sub>Manifest V3, JavaScript</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://d1oi8xa605dsj6.cloudfront.net"><img src="assets/work/jalnetra.jpg" alt="JalNetra"></a>
+      <br><br>
+      <b>JalNetra</b><br>
+      Flood early warning. Watches 681 river points, predicts which villages the water reaches, and places a Hindi voice call once a person approves.
+      <br><br>
+      <a href="https://d1oi8xa605dsj6.cloudfront.net">Live</a> &nbsp;·&nbsp; <a href="https://github.com/Swastikkkkk/jalnetra">Code</a> &nbsp;·&nbsp; <sub>AWS Lambda, Bedrock, RDS</sub>
+    </td>
+  </tr>
+</table>
 
-Previously on the iOS Payments team at **JPMorgan Chase**, where I moved Storyboard/UIKit flows to SwiftUI with MVVM, and at **KPMG**. Final-year CS (Data Science) at Manipal University Jaipur. **10+ hackathon wins**, including Smart India Hackathon 2025, Google Codeclash 2.0 (1st) and ZS Campus Beats 2026 (2nd runner-up, AI Builders).
+**More**
 
-### Selected work
+| Project | What it does | Built with |
+| --- | --- | --- |
+| [District Mesh](https://github.com/Swastikkkkk/District_Mesh) | Offline mesh for iPhone. Messages, live location, SOS and calls hop between phones with no internet. | Swift |
+| [AmExpert](https://github.com/Swastikkkkk/amexpert) | Agent that resolves card-servicing requests over voice, WhatsApp, SMS and email, with a deterministic policy engine. | Node, LangGraph |
+| [agentdrift](https://github.com/Swastikkkkk/agentdrift) | Finds rules that clash across AGENTS.md, CLAUDE.md and .cursorrules, then merges them into one file. | Python |
+| [DisasterAR](https://github.com/Swastikkkkk/disasterevac) | Indoor evacuation in AR that works fully offline, routing around hazards to the nearest safe exit. | Swift, ARKit |
+| [Guardian](https://github.com/Swastikkkkk/guardian-backend) | Safe-route engine that scores streets from OSM, weather and camera events. | FastAPI |
+| [brag-ext](https://github.com/Swastikkkkk/brag-ext) | Turns any GitHub repo into a short promo video. Voices run locally in the browser. | TypeScript, Remotion |
 
-<p align="center">
-<a href="https://github.com/Swastikkkkk/amexpert"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-amexpert-dark.svg"><img src="assets/card-amexpert-light.svg" width="49%" alt="AmExpert: multi-channel AI agent for card servicing"></picture></a>
-<a href="https://github.com/Swastikkkkk/PrepNinja"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-prepninja-dark.svg"><img src="assets/card-prepninja-light.svg" width="49%" alt="PrepNinja: AI interview preparation platform"></picture></a>
-<a href="https://github.com/Swastikkkkk/District_Mesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-district-mesh-dark.svg"><img src="assets/card-district-mesh-light.svg" width="49%" alt="District Mesh: offline mesh networking for iPhone"></picture></a>
-<a href="https://github.com/Swastikkkkk/chatsnitch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-chatsnitch-dark.svg"><img src="assets/card-chatsnitch-light.svg" width="49%" alt="ChatSnitch: Chrome extension privacy checker"></picture></a>
-<a href="https://github.com/Swastikkkkk/guardian-backend"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-guardian-dark.svg"><img src="assets/card-guardian-light.svg" width="49%" alt="Guardian: geospatial safe-route engine"></picture></a>
-<a href="https://github.com/Swastikkkkk/agentdrift"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agentdrift-dark.svg"><img src="assets/card-agentdrift-light.svg" width="49%" alt="agentdrift: AI agent instruction linter"></picture></a>
-</p>
+**Experience**
 
-**Try them live:** [SketchRacer](https://www.sketchracer.com) · [PrepNinja](https://prepninja-tawny.vercel.app) · [ChatSnitch](https://chatsnitch.vercel.app) · [agentdrift](https://agentdrift.vercel.app) · [JalNetra](https://d1oi8xa605dsj6.cloudfront.net) · [AmExpert](https://amexpert.vercel.app)
+| Company | Role | Year |
+| --- | --- | --- |
+| JPMorgan Chase | iOS Payments, Software Development Intern | 2026 |
+| KPMG | Data analytics for the Housing Ministry, Academic Intern | 2025 |
+| NetNivaran | Web Development Intern | 2024 |
 
-More: [SketchRacer](https://github.com/Swastikkkkk/swastikk-drive) (browser driving game, Three.js) · [DisasterAR](https://github.com/Swastikkkkk/disasterevac) (offline AR evacuation, ARKit) · [brag-ext](https://github.com/Swastikkkkk/brag-ext) (repo to promo video, Chrome extension) · [JalNetra](https://github.com/Swastikkkkk/jalnetra) (flood early warning, AWS)
+**Wins**
 
-### Stack
+Smart India Hackathon 2025, winner out of 68,000+ teams. Google Codeclash 2.0, first place. ZS Campus Beats 2026, second runner-up in AI Builders. Ten-plus hackathons in total.
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,fastapi,nodejs,ts,react,nextjs,tailwind,supabase,firebase,swift,docker,aws,vercel,figma&perline=8&theme=dark" alt="Python, PyTorch, OpenCV, FastAPI, Node.js, TypeScript, React, Next.js, Tailwind, Supabase, Firebase, Swift, Docker, AWS, Vercel, Figma">
-</p>
+**Stack**
 
-**AI:** LLM agents, tool calling, RAG, Gemini and Claude APIs, speech (Deepgram, ElevenLabs), computer vision (YOLO, CLIP)
-
-### Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Swastikkkkk/Swastikkkkk/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Swastikkkkk/Swastikkkkk/output/snake-light.svg" width="100%" alt="Contribution graph animation">
-</picture>
+Swift and SwiftUI · TypeScript, React, Next.js, Node · Python, FastAPI, PyTorch · Supabase, Firebase, AWS, Vercel · Claude and Gemini APIs, agents, RAG
 
 <br>
 
-[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com)
+[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/)
