@@ -197,9 +197,9 @@ def stack(mode):
     css = (f'.h{{font-size:13px;font-weight:650;fill:{t["text"]}}}'
            f'.i{{font-size:13.5px;fill:{t["sub"]}}}'
            f'.k{{font-size:11px;letter-spacing:1.4px;fill:{t["faint"]}}}')
-    s = svg_open(W, H, 'Full stack: ' + '; '.join(f'{a}: ' + ', '.join(b) for a, b in LAYERS), t, css)
+    s = svg_open(W, H, 'Stack: ' + '; '.join(f'{a}: ' + ', '.join(b) for a, b in LAYERS), t, css)
     s += f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="20" fill="{t["card"]}" stroke="{t["line"]}"/>'
-    s += f'<text class="k mono" x="26" y="40">FULL STACK, END TO END</text>'
+    s += f'<text class="k mono" x="26" y="40">STACK</text>'
     for i, (name, items) in enumerate(LAYERS):
         x = 24 + i * (cw + 12)
         s += f'<rect x="{x:.1f}" y="60" width="{cw:.1f}" height="{H - 84}" rx="12" fill="{t["bg"]}" stroke="{t["line"]}"/>'
