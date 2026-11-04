@@ -38,14 +38,8 @@ MORE = [
          desc='Type a concept, get an animated explainer. Claude writes the storyboard and the Manim code.', stack=['React', 'FastAPI', 'Manim']),
     dict(slug='district-mesh', name='District Mesh', kind='iOS',
          desc='Offline mesh for iPhone. Chat, live location, SOS and calls hop between phones with no internet.', stack=['Swift', 'Multipeer']),
-    dict(slug='amexpert', name='AmExpert', kind='AI agent',
-         desc='Resolves card-servicing requests over voice, WhatsApp, SMS and email with a deterministic policy engine.', stack=['Node', 'LangGraph']),
-    dict(slug='agentdrift', name='agentdrift', kind='Dev tool',
-         desc='Finds rules that clash across AGENTS.md, CLAUDE.md and .cursorrules, then merges them into one.', stack=['Python', 'CLI']),
     dict(slug='disasterar', name='DisasterAR', kind='iOS, ARKit',
          desc='Indoor evacuation in AR, fully offline. Routes around hazards to the nearest safe exit.', stack=['Swift', 'ARKit']),
-    dict(slug='brag-ext', name='brag-ext', kind='Chrome extension',
-         desc='Turns any GitHub repo into a short promo video. Voices run locally in the browser.', stack=['TypeScript', 'Remotion']),
 ]
 
 
@@ -211,7 +205,6 @@ def stack(mode):
 
 
 for mode in ('dark', 'light'):
-    open(f'{OUT}/stack-{mode}.svg', 'w').write(stack(mode))
     open(f'{OUT}/showreel-{mode}.svg', 'w').write(showreel(mode))
     for f in FEATURED:
         open(f'{OUT}/{f["key"]}-{mode}.svg', 'w').write(card(f, mode))

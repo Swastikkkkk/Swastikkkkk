@@ -66,19 +66,9 @@ EventBridge runs a Lambda every 3 hours that checks 681 river points against Glo
 <tr>
 <td width="33%"><a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="100%" alt="Lerno.ai"></picture></a></td>
 <td width="33%"><a href="https://github.com/Swastikkkkk/District_Mesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="100%" alt="District Mesh"></picture></a></td>
-<td width="33%"><a href="https://github.com/Swastikkkkk/amexpert"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/amexpert-dark.svg"><img src="assets/amexpert-light.svg" width="100%" alt="AmExpert"></picture></a></td>
-</tr>
-<tr>
-<td width="33%"><a href="https://github.com/Swastikkkkk/agentdrift"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/agentdrift-dark.svg"><img src="assets/agentdrift-light.svg" width="100%" alt="agentdrift"></picture></a></td>
 <td width="33%"><a href="https://github.com/Swastikkkkk/disasterevac"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/disasterar-dark.svg"><img src="assets/disasterar-light.svg" width="100%" alt="DisasterAR"></picture></a></td>
-<td width="33%"><a href="https://github.com/Swastikkkkk/brag-ext"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brag-ext-dark.svg"><img src="assets/brag-ext-light.svg" width="100%" alt="brag-ext"></picture></a></td>
 </tr>
 </table>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" width="100%" alt="Stack: frontend, backend, data and cloud, mobile, AI">
-</picture>
 
 <details>
 <summary><b>Experience</b></summary>
