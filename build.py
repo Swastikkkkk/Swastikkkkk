@@ -178,7 +178,40 @@ def small(m, mode):
     return s + '</svg>\n'
 
 
+
+# ---------------------------------------------------------------- full stack strip
+LAYERS = [
+    ('Frontend', ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js']),
+    ('Backend', ['Node', 'Express', 'FastAPI', 'Python', 'REST']),
+    ('Data and cloud', ['Postgres', 'Supabase', 'Firebase', 'AWS', 'Vercel']),
+    ('Mobile', ['Swift', 'SwiftUI', 'UIKit', 'MVVM', 'React Native']),
+    ('AI', ['Claude', 'Gemini', 'Agents', 'RAG', 'PyTorch']),
+]
+
+
+def stack(mode):
+    t = THEME[mode]
+    W, H = 1000, 250
+    n = len(LAYERS)
+    cw = (W - 48 - (n - 1) * 12) / n
+    css = (f'.h{{font-size:13px;font-weight:650;fill:{t["text"]}}}'
+           f'.i{{font-size:13.5px;fill:{t["sub"]}}}'
+           f'.k{{font-size:11px;letter-spacing:1.4px;fill:{t["faint"]}}}')
+    s = svg_open(W, H, 'Full stack: ' + '; '.join(f'{a}: ' + ', '.join(b) for a, b in LAYERS), t, css)
+    s += f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="20" fill="{t["card"]}" stroke="{t["line"]}"/>'
+    s += f'<text class="k mono" x="26" y="40">FULL STACK, END TO END</text>'
+    for i, (name, items) in enumerate(LAYERS):
+        x = 24 + i * (cw + 12)
+        s += f'<rect x="{x:.1f}" y="60" width="{cw:.1f}" height="{H - 84}" rx="12" fill="{t["bg"]}" stroke="{t["line"]}"/>'
+        s += f'<text class="k mono" x="{x + 16:.1f}" y="86">0{i+1}</text>'
+        s += f'<text class="h" x="{x + 16:.1f}" y="108">{esc(name)}</text>'
+        for j, it in enumerate(items):
+            s += f'<text class="i" x="{x + 16:.1f}" y="{136 + j * 19}">{esc(it)}</text>'
+    return s + '</svg>\n'
+
+
 for mode in ('dark', 'light'):
+    open(f'{OUT}/stack-{mode}.svg', 'w').write(stack(mode))
     open(f'{OUT}/showreel-{mode}.svg', 'w').write(showreel(mode))
     for f in FEATURED:
         open(f'{OUT}/{f["key"]}-{mode}.svg', 'w').write(card(f, mode))

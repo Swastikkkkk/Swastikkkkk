@@ -1,6 +1,8 @@
-<h3>Hi, I'm Swastik.</h3>
+<h3>Swastik Dutt</h3>
 
-I build AI products end to end: the model or agent, the API around it, the web app, and the iOS client when it needs one. Final-year CS at Manipal University Jaipur. This summer I was on the iOS Payments team at JPMorgan Chase.
+**Full stack engineer. Incoming SDE at [JPMorgan Chase](https://github.com/jpmorganchase).**
+
+I build products end to end: the React front end, the Node or FastAPI service behind it, the database, the SwiftUI app when it needs one, and the AI layer on top. Interned on the iOS Payments team at JPMorgan Chase. Final-year CS at Manipal University Jaipur.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg">
@@ -73,9 +75,17 @@ EventBridge runs a Lambda every 3 hours that checks 681 river points against Glo
 </tr>
 </table>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Full stack: frontend, backend, data and cloud, mobile, AI">
+</picture>
+
 <details>
 <summary><b>Experience</b></summary>
 <br>
+
+**JPMorgan Chase** · Software Development Engineer · incoming<br>
+Joining full time after graduation.
 
 **JPMorgan Chase** · iOS Payments, Software Development Intern · 2026<br>
 Moved Storyboard and UIKit payment flows in the Chase app to SwiftUI with MVVM.
@@ -97,15 +107,7 @@ Mobile-first rebuild, 60% faster load times.
 10+ hackathons in total
 </details>
 
-<details>
-<summary><b>Stack</b></summary>
-<br>
-
-**Apps** · Swift, SwiftUI, TypeScript, React, Next.js, Node<br>
-**AI** · Claude and Gemini APIs, agents, tool calling, RAG, PyTorch, OpenCV<br>
-**Backend** · Python, FastAPI, Supabase, Firebase, AWS, Vercel
-</details>
 
 <br>
 
-[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/)
+[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/) · [X](https://x.com/SwastikDutt)
