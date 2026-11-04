@@ -104,7 +104,7 @@ Mobile-first rebuild, 60% faster load times.
 **Smart India Hackathon 2025** · winner, out of 68,000+ teams<br>
 **Google Codeclash 2.0** · first place with [Lerno.ai](https://github.com/Swastikkkkk/lerno), 1,000+ teams<br>
 **ZS Campus Beats 2026** · second runner-up, AI Builders<br>
-10+ hackathons in total
+13 hackathon wins in total
 </details>
 
 
