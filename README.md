@@ -1,43 +1,111 @@
-### Hi, I'm Swastik.
+<h3>Hi, I'm Swastik.</h3>
 
-I build AI products end to end: the model or agent, the API around it, the web app, and the iOS client when it needs one. Final-year CS at Manipal University Jaipur, and this summer I was on the iOS Payments team at JPMorgan Chase.
+I build AI products end to end: the model or agent, the API around it, the web app, and the iOS client when it needs one. Final-year CS at Manipal University Jaipur. This summer I was on the iOS Payments team at JPMorgan Chase.
 
-Instead of a list of projects, here's a board game made of them.
-
-<!--GAME:START-->
-<a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><picture><source media="(prefers-color-scheme: dark)" srcset="game/board-dark.svg"><img src="game/board-light.svg" width="100%" alt="Snakes and Ladders board, token on square 1"></picture></a>
-
-<p align="center"><a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><b>Roll the dice</b></a> &nbsp;·&nbsp; <sub>opens a ready-made issue, hit Create and a bot moves the token</sub></p>
-
-**The token is on Start.** First project, brag-ext, is a roll of 3 away.
-
-<!--GAME:END-->
-
-<details>
-<summary><b>Skip the game, show me everything</b></summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg">
+  <img src="assets/showreel-light.svg" width="100%" alt="Showreel of SketchRacer, PrepNinja, ChatSnitch and JalNetra">
+</picture>
 
 <br>
 
-| Square | Project | What it does | |
-| --- | --- | --- | --- |
-| 36 | [SketchRacer](https://github.com/Swastikkkkk/swastikk-drive) | Open-world driving game in the browser. Draw any track and race it, or drive real F1 circuits. | [Live](https://www.sketchracer.com) |
-| 35 | [PrepNinja](https://github.com/Swastikkkkk/PrepNinja) | Proctored AI mock interviews, coding rounds with a sandboxed runner, and an ATS resume check. | [Live](https://prepninja-tawny.vercel.app) |
-| 33 | [JalNetra](https://github.com/Swastikkkkk/jalnetra) | Flood early warning. Watches 681 river points and calls the village head in Hindi once a person approves. | [Live](https://d1oi8xa605dsj6.cloudfront.net) |
-| 30 | [ChatSnitch](https://github.com/Swastikkkkk/chatsnitch) | Shows which of your Chrome extensions can read your ChatGPT, Claude and Gemini chats. | [Live](https://chatsnitch.vercel.app) |
-| 27 | [Lerno.ai](https://github.com/Swastikkkkk/lerno) | Type a concept, get an animated explainer. Claude writes the storyboard and Manim code. Won Google Codeclash 2.0. | [Live](https://lerno-peach.vercel.app) |
-| 24 | [AmExpert](https://github.com/Swastikkkkk/amexpert) | Agent that resolves card-servicing requests over voice, WhatsApp, SMS and email, with a deterministic policy engine. | [Live](https://amexpert.vercel.app) |
-| 20 | [District Mesh](https://github.com/Swastikkkkk/District_Mesh) | Offline mesh for iPhone. Messages, live location, SOS and calls hop between phones with no internet. |  |
-| 17 | [DisasterAR](https://github.com/Swastikkkkk/disasterevac) | Indoor evacuation in AR that works fully offline, routing around hazards to the nearest safe exit. |  |
-| 13 | [Guardian](https://github.com/Swastikkkkk/guardian-backend) | Safe-route engine that scores streets from OSM, weather and camera events. |  |
-| 9 | [agentdrift](https://github.com/Swastikkkkk/agentdrift) | Finds rules that clash across AGENTS.md, CLAUDE.md and .cursorrules, then merges them into one file. | [Live](https://agentdrift.vercel.app) |
-| 4 | [brag-ext](https://github.com/Swastikkkkk/brag-ext) | Turns any GitHub repo into a short promo video. Voices run locally in the browser. |  |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://www.sketchracer.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/sketchracer-dark.svg"><img src="assets/sketchracer-light.svg" width="100%" alt="SketchRacer"></picture></a>
+<details>
+<summary><b>How it's built</b></summary>
+<br>
 
+Three.js world with car physics, nine missions, a stunt park and a radio that composes music live in the browser. You freehand-draw a loop and it's validated (closes up, no self-crossing, no corners too tight), then built into a real track with checkpoints and lap timing. F1 circuits load at real scale. Multiplayer rooms run on Cloudflare Durable Objects, up to 8 drivers, with your phone as a controller.
+
+[Play](https://www.sketchracer.com) · [Code](https://github.com/Swastikkkkk/swastikk-drive)
+</details>
+</td>
+<td width="50%" valign="top">
+<a href="https://prepninja-tawny.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/prepninja-dark.svg"><img src="assets/prepninja-light.svg" width="100%" alt="PrepNinja"></picture></a>
+<details>
+<summary><b>How it's built</b></summary>
+<br>
+
+Gemini writes role-specific interview questions. Video answers are transcribed with Deepgram and scored on five axes. Coding problems only keep test cases that Gemini's own solution passes in the Judge0 sandbox. A per-topic skill score drives a weekly study roadmap, benchmarked against BKT and DKT on ASSISTments.
+
+[Live](https://prepninja-tawny.vercel.app) · [Code](https://github.com/Swastikkkkk/PrepNinja)
+</details>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://chatsnitch.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chatsnitch-dark.svg"><img src="assets/chatsnitch-light.svg" width="100%" alt="ChatSnitch"></picture></a>
+<details>
+<summary><b>How it's built</b></summary>
+<br>
+
+A Manifest V3 extension with one permission (`management`) and no network access. It reads every installed extension's host permissions and permission warnings (which catch content-script access the API leaves out), works out which can see ChatGPT, Claude or Gemini, and ranks the risk. Nothing leaves the browser. Built after a run of real extensions were caught exfiltrating AI chats.
+
+[Site](https://chatsnitch.vercel.app) · [Code](https://github.com/Swastikkkkk/chatsnitch)
+</details>
+</td>
+<td width="50%" valign="top">
+<a href="https://d1oi8xa605dsj6.cloudfront.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/jalnetra-dark.svg"><img src="assets/jalnetra-light.svg" width="100%" alt="JalNetra"></picture></a>
+<details>
+<summary><b>How it's built</b></summary>
+<br>
+
+EventBridge runs a Lambda every 3 hours that checks 681 river points against GloFAS forecasts. When a river rises, it predicts which of 291 villages the water reaches and when. Bedrock drafts the advisory, a person approves it, and the village head gets a Hindi voice call. RDS keeps the call ledger, CloudFront and WAF sit in front.
+
+[Live](https://d1oi8xa605dsj6.cloudfront.net) · [Code](https://github.com/Swastikkkkk/jalnetra)
+</details>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%"><a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="100%" alt="Lerno.ai"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/District_Mesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="100%" alt="District Mesh"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/amexpert"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/amexpert-dark.svg"><img src="assets/amexpert-light.svg" width="100%" alt="AmExpert"></picture></a></td>
+</tr>
+<tr>
+<td width="33%"><a href="https://github.com/Swastikkkkk/agentdrift"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/agentdrift-dark.svg"><img src="assets/agentdrift-light.svg" width="100%" alt="agentdrift"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/disasterevac"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/disasterar-dark.svg"><img src="assets/disasterar-light.svg" width="100%" alt="DisasterAR"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/brag-ext"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brag-ext-dark.svg"><img src="assets/brag-ext-light.svg" width="100%" alt="brag-ext"></picture></a></td>
+</tr>
+</table>
+
+<details>
+<summary><b>Experience</b></summary>
+<br>
+
+**JPMorgan Chase** · iOS Payments, Software Development Intern · 2026<br>
+Moved Storyboard and UIKit payment flows in the Chase app to SwiftUI with MVVM.
+
+**KPMG** · Academic Intern, Housing Ministry data analytics · 2025<br>
+React dashboard and Node pipelines that cut manual reporting by over 40%.
+
+**NetNivaran** · Web Development Intern · 2024<br>
+Mobile-first rebuild, 60% faster load times.
 </details>
 
-**Experience** &nbsp; JPMorgan Chase, iOS Payments intern (2026) · KPMG, data analytics for the Housing Ministry (2025) · NetNivaran, web dev intern (2024)
+<details>
+<summary><b>Wins</b></summary>
+<br>
 
-**Wins** &nbsp; Smart India Hackathon 2025, winner out of 68,000+ teams · Google Codeclash 2.0, first place with [Lerno.ai](https://github.com/Swastikkkkk/lerno) · ZS Campus Beats 2026, second runner-up · 10+ hackathons in total
+**Smart India Hackathon 2025** · winner, out of 68,000+ teams<br>
+**Google Codeclash 2.0** · first place with [Lerno.ai](https://github.com/Swastikkkkk/lerno), 1,000+ teams<br>
+**ZS Campus Beats 2026** · second runner-up, AI Builders<br>
+10+ hackathons in total
+</details>
 
-**Stack** &nbsp; Swift, SwiftUI · TypeScript, React, Next.js, Node · Python, FastAPI, PyTorch · Supabase, Firebase, AWS · Claude and Gemini APIs, agents, RAG
+<details>
+<summary><b>Stack</b></summary>
+<br>
 
-[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/)
+**Apps** · Swift, SwiftUI, TypeScript, React, Next.js, Node<br>
+**AI** · Claude and Gemini APIs, agents, tool calling, RAG, PyTorch, OpenCV<br>
+**Backend** · Python, FastAPI, Supabase, Firebase, AWS, Vercel
+</details>
+
+<br>
+
+[swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/)
