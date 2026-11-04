@@ -1,0 +1,49 @@
+name: Snakes and Ladders
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  roll:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'snl|roll')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Roll and push
+        id: roll
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5 6; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            if [ "$EVENT" = "issues" ]; then node game/roll.mjs > out.txt; else node game/render.mjs; : > out.txt; fi
+            git add game README.md
+            git diff --cached --quiet && break
+            git commit -qm "Move the token"
+            git push -q origin HEAD:main && break
+            sleep $((RANDOM % 5 + 2))
+          done
+          cat out.txt >> "$GITHUB_OUTPUT"
+
+      - name: Reply and close
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUM: ${{ github.event.issue.number }}
+          MSG: ${{ steps.roll.outputs.msg }}
+        run: gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --comment "$MSG"
