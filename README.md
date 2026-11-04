@@ -9,7 +9,7 @@ Instead of a list of projects, here's a board game made of them.
 
 <p align="center"><a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><b>Roll the dice</b></a> &nbsp;·&nbsp; <sub>opens a ready-made issue, hit Create and a bot moves the token</sub></p>
 
-**The token is on Start.** First project is two squares away.
+**The token is on Start.** First project, brag-ext, is a roll of 3 away.
 
 <!--GAME:END-->
 

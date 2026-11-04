@@ -244,7 +244,7 @@ function landingMd(state) {
     const head = n === LAST ? `**Square 36, the finish: [${p.name}](${p.live || p.code}).**` : `**Square ${n}: [${p.name}](${p.live || p.code}).**`;
     return `${head} ${p.desc} ${links(p)}`;
   }
-  if (n === 1) return `**The token is on Start.** First project is two squares away.`;
+  if (n === 1) return `**The token is on Start.** First project, brag-ext, is a roll of 3 away.`;
   const next = Object.keys(PROJECTS).map(Number).find((k) => k > n);
   const q = PROJECTS[next];
   return `**Square ${n}.** Nothing shipped here yet. Next up: [${q.name}](${q.live || q.code}) on square ${next}, a roll of ${next - n <= 6 ? next - n : 'a few'} away.`;
