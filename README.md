@@ -5,21 +5,12 @@ I build AI products end to end: the model or agent, the API around it, the web a
 Instead of a list of projects, here's a board game made of them.
 
 <!--GAME:START-->
-<a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><picture><source media="(prefers-color-scheme: dark)" srcset="game/board-dark.svg"><img src="game/board-light.svg" width="100%" alt="Snakes and Ladders board, token on square 4"></picture></a>
+<a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><picture><source media="(prefers-color-scheme: dark)" srcset="game/board-dark.svg"><img src="game/board-light.svg" width="100%" alt="Snakes and Ladders board, token on square 1"></picture></a>
 
 <p align="center"><a href="https://github.com/Swastikkkkk/Swastikkkkk/issues/new?title=snl%7Croll&body=Just%20press%20%22Create%22.%20A%20GitHub%20Action%20rolls%20the%20dice%2C%20moves%20the%20token%20and%20closes%20this%20issue%20in%20about%2030%20seconds."><b>Roll the dice</b></a> &nbsp;·&nbsp; <sub>opens a ready-made issue, hit Create and a bot moves the token</sub></p>
 
-**Square 4: [brag-ext](https://github.com/Swastikkkkk/brag-ext).** Turns any GitHub repo into a short promo video. Voices run locally in the browser. [Code](https://github.com/Swastikkkkk/brag-ext)
+**The token is on Start.** First project is two squares away.
 
-<details><summary>Last 1 moves</summary>
-
-| Player | Roll | Move |
-| --- | --- | --- |
-| [@Swastikkkkk](https://github.com/Swastikkkkk) | 3 | 1 → 4 |
-
-**Most rolls:** [@Swastikkkkk](https://github.com/Swastikkkkk) 1
-
-</details>
 <!--GAME:END-->
 
 <details>

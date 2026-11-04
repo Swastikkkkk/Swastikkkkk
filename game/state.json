@@ -1,35 +1,11 @@
 {
-  "position": 4,
-  "rolls": 1,
+  "position": 1,
+  "rolls": 0,
   "games": 0,
-  "gameRolls": 1,
+  "gameRolls": 0,
   "resetNext": false,
-  "last": {
-    "user": "Swastikkkkk",
-    "dice": 3,
-    "from": 1,
-    "land": 4,
-    "to": 4,
-    "event": null,
-    "bounced": false,
-    "at": "2026-11-04T09:55:49.235Z",
-    "won": false
-  },
-  "history": [
-    {
-      "user": "Swastikkkkk",
-      "dice": 3,
-      "from": 1,
-      "land": 4,
-      "to": 4,
-      "event": null,
-      "bounced": false,
-      "at": "2026-11-04T09:55:49.235Z",
-      "won": false
-    }
-  ],
-  "players": {
-    "Swastikkkkk": 1
-  },
+  "last": null,
+  "history": [],
+  "players": {},
   "winners": []
 }
