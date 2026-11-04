@@ -49,14 +49,14 @@ A Manifest V3 extension with one permission (`management`) and no network access
 </details>
 </td>
 <td width="50%" valign="top">
-<a href="https://d1oi8xa605dsj6.cloudfront.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/jalnetra-dark.svg"><img src="assets/jalnetra-light.svg" width="100%" alt="JalNetra"></picture></a>
+<a href="https://jalnetra-lilac.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/jalnetra-dark.svg"><img src="assets/jalnetra-light.svg" width="100%" alt="JalNetra"></picture></a>
 <details>
 <summary><b>How it's built</b></summary>
 <br>
 
 EventBridge runs a Lambda every 3 hours that checks 681 river points against GloFAS forecasts. When a river rises, it predicts which of 291 villages the water reaches and when. Bedrock drafts the advisory, a person approves it, and the village head gets a Hindi voice call. RDS keeps the call ledger, CloudFront and WAF sit in front.
 
-[Live](https://d1oi8xa605dsj6.cloudfront.net) · [Code](https://github.com/Swastikkkkk/jalnetra)
+[Live](https://jalnetra-lilac.vercel.app) · [Code](https://github.com/Swastikkkkk/jalnetra)
 </details>
 </td>
 </tr>
