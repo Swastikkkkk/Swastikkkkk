@@ -2,7 +2,7 @@
 
 **Incoming SDE at [JPMorgan Chase](https://github.com/jpmorganchase).**
 
-Interned on the iOS Payments team at JPMorgan Chase. Final-year CS at Manipal University Jaipur. More at [swastikdutt.vercel.app](https://swastikdutt.vercel.app).
+Interned on the iOS Payments team at JPMorgan Chase. Final-year CS at Manipal University Jaipur. More at [swastikdutt.vercel.app](https://swastikkkkk.github.io).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg">
@@ -100,4 +100,4 @@ Mobile-first rebuild, 60% faster load times.
 
 <br>
 
-[Portfolio](https://swastikdutt.vercel.app) · [swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/) · [X](https://x.com/SwastikDutt)
+[Portfolio](https://swastikkkkk.github.io) · [swastikdutt@gmail.com](mailto:swastikdutt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/swastik-dutt-150b61280/) · [X](https://x.com/SwastikDutt)
