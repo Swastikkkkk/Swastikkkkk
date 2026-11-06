@@ -30,7 +30,7 @@ Three.js world with car physics, nine missions, a stunt park and a radio that co
 <summary><b>How it's built</b></summary>
 <br>
 
-Gemini writes role-specific interview questions. Video answers are transcribed with Deepgram and scored on five axes. Coding problems only keep test cases that Gemini's own solution passes in the Judge0 sandbox. A per-topic skill score drives a weekly study roadmap, benchmarked against BKT and DKT on ASSISTments.
+NVIDIA Nemotron writes role-specific interview questions, transcribes video answers and scores them on five axes. Coding problems only keep test cases that the model's own solution passes in the Judge0 sandbox. A per-topic skill score drives a weekly study roadmap, benchmarked against BKT and DKT on ASSISTments.
 
 [Live](https://prepninja-tawny.vercel.app) · [Code](https://github.com/Swastikkkkk/PrepNinja)
 </details>
@@ -64,8 +64,8 @@ EventBridge runs a Lambda every 3 hours that checks 681 river points against Glo
 
 <table>
 <tr>
-<td width="33%"><a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="100%" alt="Lerno.ai"></picture></a></td>
-<td width="33%"><a href="https://github.com/Swastikkkkk/District_Mesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="100%" alt="District Mesh"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="100%" alt="ExplAInr"></picture></a></td>
+<td width="33%"><a href="https://github.com/Swastikkkkk/NoBars"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="100%" alt="NoBars"></picture></a></td>
 <td width="33%"><a href="https://github.com/Swastikkkkk/disasterevac"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/disasterar-dark.svg"><img src="assets/disasterar-light.svg" width="100%" alt="DisasterAR"></picture></a></td>
 </tr>
 </table>
@@ -92,7 +92,7 @@ Mobile-first rebuild, 60% faster load times.
 <br>
 
 **Smart India Hackathon 2025** · winner, out of 68,000+ teams<br>
-**Google Codeclash 2.0** · first place with [Lerno.ai](https://github.com/Swastikkkkk/lerno), 1,000+ teams<br>
+**Google Codeclash 2.0** · first place with [ExplAInr](https://github.com/Swastikkkkk/lerno), 1,000+ teams<br>
 **ZS Campus Beats 2026** · second runner-up, AI Builders<br>
 13 hackathon wins in total
 </details>

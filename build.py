@@ -24,7 +24,7 @@ FEATURED = [
          stack=['Three.js', 'Cloudflare', 'Vercel']),
     dict(key='prepninja', stat='5', statl='scoring axes on every video answer, plus live coding rounds', name='PrepNinja', kind='AI platform',
          desc='Proctored AI mock interviews, coding rounds with a sandboxed runner, and an ATS resume check.',
-         stack=['React', 'Node', 'Gemini', 'Judge0']),
+         stack=['React', 'Node', 'Nemotron', 'Judge0']),
     dict(key='chatsnitch', stat='1', statl='permission, zero network access, nothing leaves the browser', name='ChatSnitch', kind='Chrome extension',
          desc='Shows which of your extensions can read your ChatGPT, Claude and Gemini chats. One permission, no network.',
          stack=['Manifest V3', 'JavaScript']),
@@ -34,9 +34,9 @@ FEATURED = [
 ]
 
 MORE = [
-    dict(slug='lerno', name='Lerno.ai', kind='Won Google Codeclash 2.0',
-         desc='Type a concept, get an animated explainer. Claude writes the storyboard and the Manim code.', stack=['React', 'FastAPI', 'Manim']),
-    dict(slug='district-mesh', name='District Mesh', kind='iOS',
+    dict(slug='lerno', name='ExplAInr', kind='Won Google Codeclash 2.0',
+         desc='Type a concept, get an animated explainer. A free LLM writes the storyboard and the Manim code.', stack=['React', 'FastAPI', 'Manim']),
+    dict(slug='district-mesh', name='NoBars', kind='iOS',
          desc='Offline mesh for iPhone. Chat, live location, SOS and calls hop between phones with no internet.', stack=['Swift', 'Multipeer']),
     dict(slug='disasterar', name='DisasterAR', kind='iOS, ARKit',
          desc='Indoor evacuation in AR, fully offline. Routes around hazards to the nearest safe exit.', stack=['Swift', 'ARKit']),
