@@ -2,7 +2,7 @@
 
 **Incoming SDE at [JPMorgan Chase](https://github.com/jpmorganchase).**
 
-Interned on the iOS Payments team at JPMorgan Chase. Final-year CS at Manipal University Jaipur. More at [swastikdutt.vercel.app](https://swastikkkkk.github.io).
+Interned on the iOS Payments team at JPMorgan Chase. Final-year CS at Manipal University Jaipur. More at [swastikkkkk.github.io](https://swastikkkkk.github.io).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg">
