@@ -1,14 +1,9 @@
+<a href="https://swastikkkkk.github.io">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Swastik Dutt. Incoming SDE at JPMorgan Chase.">
+  <img src="assets/header-light.svg" width="100%" alt="Swastik Dutt. Incoming SDE at JPMorgan Chase. 13+ hackathon wins.">
 </picture>
-
-Incoming SDE at [JPMorgan Chase](https://github.com/jpmorganchase). Interned on the iOS Payments team there. Final-year CS at Manipal University Jaipur. More at [swastikkkkk.github.io](https://swastikkkkk.github.io).
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="13+ hackathon wins">
-</picture>
+</a>
 
 <br><br>
 
@@ -45,9 +40,9 @@ EventBridge runs a Lambda every 3 hours that checks 681 river points against Glo
 
 <br>
 
-<a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="32.5%" alt="ExplAInr"></picture></a>
-<a href="https://github.com/Swastikkkkk/NoBars"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="32.5%" alt="NoBars"></picture></a>
-<a href="https://github.com/Swastikkkkk/disasterevac"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/disasterar-dark.svg"><img src="assets/disasterar-light.svg" width="32.5%" alt="DisasterAR"></picture></a>
+<a href="https://github.com/Swastikkkkk/lerno"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lerno-dark.svg"><img src="assets/lerno-light.svg" width="100%" alt="ExplAInr"></picture></a>
+<a href="https://github.com/Swastikkkkk/NoBars"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/district-mesh-dark.svg"><img src="assets/district-mesh-light.svg" width="100%" alt="NoBars"></picture></a>
+<a href="https://github.com/Swastikkkkk/disasterevac"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/disasterar-dark.svg"><img src="assets/disasterar-light.svg" width="100%" alt="DisasterAR"></picture></a>
 
 <br><br>
 
