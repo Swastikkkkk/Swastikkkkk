@@ -7,7 +7,7 @@ Incoming SDE at [JPMorgan Chase](https://github.com/jpmorganchase). Interned on 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="13 hackathon wins. Won SIH 2025 out of 68,000+ teams. First at Google Codeclash 2.0 out of 1,000+ teams. 3 internships.">
+  <img src="assets/stats-light.svg" width="100%" alt="13+ hackathon wins">
 </picture>
 
 <br><br>

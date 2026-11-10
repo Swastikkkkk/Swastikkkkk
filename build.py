@@ -55,10 +55,7 @@ ROLES = [
 ]
 
 STATS = [
-    ('13', '', 'hackathon wins'),
-    ('68000', '+', 'teams at SIH 2025. Won it.'),
-    ('1000', '+', 'teams at Google Codeclash. 1st.'),
-    ('3', '', 'internships, JPMC to KPMG'),
+    ('13', '+', 'hackathon wins'),
 ]
 
 TIMELINE = [
@@ -157,8 +154,8 @@ def header(mode):
 # ---------------------------------------------------------------- stats (odometer)
 def stats(mode):
     t = THEME[mode]
-    W, H = 1000, 132
     n = len(STATS)
+    W, H = 1000, (84 if n == 1 else 132)
     cw = (W - (n - 1) * 12) / n
     LH = 46
     css = (f'.num{{font-size:40px;font-weight:700;letter-spacing:-1.4px;fill:{t["text"]}}}'
@@ -188,7 +185,10 @@ def stats(mode):
                 cx += 11
         if suf:
             body += f'<text class="num" x="{cx + 1:.1f}" y="56">{suf}</text>'
-        body += f'<text class="lab" x="{x + 22:.1f}" y="98">{esc(lab)}</text></g>'
+        if n == 1:
+            body += f'<text class="lab" style="font-size:20px;font-weight:500" x="{cx + 44:.1f}" y="52">{esc(lab)}</text></g>'
+        else:
+            body += f'<text class="lab" x="{x + 22:.1f}" y="98">{esc(lab)}</text></g>'
     s = svg_open(W, H, '; '.join(f'{int(a):,}{b} {c}' for a, b, c in STATS), t, css + ''.join(keys))
     return s + body + '</svg>\n'
 
