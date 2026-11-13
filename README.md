@@ -18,7 +18,7 @@
 <a href="https://www.sketchracer.com"><b>SketchRacer</b></a> &nbsp;·&nbsp;
 <a href="https://prepninja-tawny.vercel.app"><b>PrepNinja</b></a> &nbsp;·&nbsp;
 <a href="https://chatsnitch.vercel.app"><b>ChatSnitch</b></a> &nbsp;·&nbsp;
-<a href="https://jalnetra-lilac.vercel.app"><b>JalNetra</b></a>
+<a href="https://d1oi8xa605dsj6.cloudfront.net"><b>JalNetra</b></a>
 </p>
 
 <details>
@@ -34,7 +34,7 @@ NVIDIA Nemotron writes role-specific interview questions, transcribes video answ
 **ChatSnitch** · [Site](https://chatsnitch.vercel.app) · [Code](https://github.com/Swastikkkkk/chatsnitch)<br>
 A Manifest V3 extension with one permission (`management`) and no network access. It reads every installed extension's host permissions and permission warnings, works out which can see ChatGPT, Claude or Gemini, and ranks the risk. Nothing leaves the browser.
 
-**JalNetra** · [Live](https://jalnetra-lilac.vercel.app) · [Code](https://github.com/Swastikkkkk/jalnetra)<br>
+**JalNetra** · [Live](https://d1oi8xa605dsj6.cloudfront.net) · [Code](https://github.com/Swastikkkkk/jalnetra)<br>
 EventBridge runs a Lambda every 3 hours that checks 681 river points against GloFAS forecasts. When a river rises, it predicts which of 291 villages the water reaches and when. Bedrock drafts the advisory, a person approves it, and the village head gets a Hindi voice call.
 </details>
 

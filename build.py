@@ -37,7 +37,7 @@ FEATURED = [
     dict(key='chatsnitch', url='chatsnitch.vercel.app', stat='1', statl='permission, no network access, nothing leaves the browser',
          name='ChatSnitch', desc='Shows which of your extensions can read your ChatGPT, Claude and Gemini chats.',
          stack=['Manifest V3', 'JavaScript']),
-    dict(key='jalnetra', url='jalnetra-lilac.vercel.app', stat='681', statl='river points checked every 3 hours across India',
+    dict(key='jalnetra', url='d1oi8xa605dsj6.cloudfront.net', stat='681', statl='river points checked every 3 hours across India',
          name='JalNetra', desc='Flood early warning on 681 rivers. Predicts which villages flood and calls the village head in Hindi.',
          stack=['AWS Lambda', 'Bedrock', 'RDS']),
 ]
